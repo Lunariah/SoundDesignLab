@@ -2108,7 +2108,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper (2)
+      value: Chomper 9
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2450,7 +2450,7 @@ RectTransform:
   m_Children:
   - {fileID: 348818062}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2624,6 +2624,7 @@ MonoBehaviour:
   ac_halfgame: {fileID: 8300000, guid: 592244b3406550a438ad8f86303dd0a9, type: 3}
   ac_nohelp: {fileID: 8300000, guid: 4d636b6ae8658e4408827a913a4660ee, type: 3}
   ac_end: {fileID: 8300000, guid: 3813a797ad46c2d45881ea0caec00015, type: 3}
+  patience: 160
 --- !u!82 &240720835
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2732,7 +2733,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &243198819
 GameObject:
@@ -4900,7 +4901,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper
+      value: Chomper 3
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4965,7 +4966,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper
+      value: Chomper 2
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6826,7 +6827,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 52.898098, y: -573.2259, z: -177.0378}
 --- !u!1001 &684801451
 PrefabInstance:
@@ -8804,7 +8805,7 @@ Transform:
   - {fileID: 403785658}
   - {fileID: 1401184303}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &869769951 stripped
 Transform:
@@ -8919,7 +8920,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper
+      value: Chomper 4
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9574,7 +9575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10452,7 +10453,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper
+      value: Chomper 8
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10790,7 +10791,7 @@ Transform:
   - {fileID: 2145892862}
   - {fileID: 1023219709}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1101390354
 PrefabInstance:
@@ -11026,7 +11027,7 @@ Transform:
   m_LocalScale: {x: 4.419239, y: 1, z: 1.2044}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1137537030
 MonoBehaviour:
@@ -11353,7 +11354,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper
+      value: Chomper 1
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11657,7 +11658,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper
+      value: Chomper 5
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15074,7 +15075,7 @@ GameObject:
   - component: {fileID: 1609476356}
   - component: {fileID: 1609476355}
   m_Layer: 5
-  m_Name: MainUI
+  m_Name: MenuUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17749,6 +17750,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 240720834}
+        m_MethodName: OnGameStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1842230884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19147,8 +19159,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1196133219}
-  reach: 1
-  progress: 0
+  reach: 2
+  collect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1964753683
 Transform:
   m_ObjectHideFlags: 0
@@ -19161,7 +19186,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1965540672 stripped
 Transform:
@@ -19471,7 +19496,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper
+      value: Chomper 6
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19622,7 +19647,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper (3)
+      value: Chomper 10
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20641,7 +20666,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1722084123150156, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_Name
-      value: Chomper (1)
+      value: Chomper  7
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x

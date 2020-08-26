@@ -5,8 +5,8 @@ public class LaunchGame : MonoBehaviour
 {
     public void HideUI()
     {
-        GameObject mainUI = GameObject.Find("MainUI");
-        mainUI.SetActive(false);
+        GameObject menuUI = GameObject.Find("MenuUI");
+        menuUI.SetActive(false);
         GameObject fpsController = GameObject.Find("FPSController");
         (fpsController.GetComponent("FirstPersonController") as MonoBehaviour).enabled = true;
     }

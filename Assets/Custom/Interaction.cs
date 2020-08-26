@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Interaction : MonoBehaviour
 {
@@ -9,8 +10,7 @@ public class Interaction : MonoBehaviour
     [SerializeField]
     private float reach;
 
-    //[HideInInspector]
-    public byte progress = 0;
+    public UnityEvent collect;
 
     private Ray ray;
     private RaycastHit hit;
@@ -20,14 +20,13 @@ public class Interaction : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-            Debug.Log("Casting");
             if (Physics.Raycast(ray, out hit, reach))
             {
                 Debug.Log(hit.transform.name);
                 if (hit.transform.CompareTag("Specimen"))
                 {
                     Destroy(hit.transform.gameObject);
-                    progress++;
+                    collect.Invoke();
                 }
             }
         }
