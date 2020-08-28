@@ -2625,13 +2625,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac_start: {fileID: 8300000, guid: 1b2849fd19a918047b6464574d5dc6c5, type: 3}
-  ac_normal_collect: {fileID: 8300000, guid: 498003343ca5cde4ba695dc3ef7f546d, type: 3}
-  ac_special_collect: {fileID: 8300000, guid: b942bd15691997348acc061f74f77f6c, type: 3}
-  ac_halfgame: {fileID: 8300000, guid: 592244b3406550a438ad8f86303dd0a9, type: 3}
   ac_nohelp: {fileID: 8300000, guid: 4d636b6ae8658e4408827a913a4660ee, type: 3}
-  ac_end: {fileID: 8300000, guid: 3813a797ad46c2d45881ea0caec00015, type: 3}
-  patience: 160
-  capturesRemaining: 10
+  ac_capture:
+  - {fileID: 8300000, guid: 498003343ca5cde4ba695dc3ef7f546d, type: 3}
+  - {fileID: 8300000, guid: 498003343ca5cde4ba695dc3ef7f546d, type: 3}
+  - {fileID: 8300000, guid: 498003343ca5cde4ba695dc3ef7f546d, type: 3}
+  - {fileID: 8300000, guid: b942bd15691997348acc061f74f77f6c, type: 3}
+  - {fileID: 8300000, guid: 498003343ca5cde4ba695dc3ef7f546d, type: 3}
+  - {fileID: 8300000, guid: 498003343ca5cde4ba695dc3ef7f546d, type: 3}
+  - {fileID: 8300000, guid: 498003343ca5cde4ba695dc3ef7f546d, type: 3}
+  - {fileID: 8300000, guid: 498003343ca5cde4ba695dc3ef7f546d, type: 3}
+  - {fileID: 8300000, guid: 498003343ca5cde4ba695dc3ef7f546d, type: 3}
+  - {fileID: 8300000, guid: 3813a797ad46c2d45881ea0caec00015, type: 3}
+  patience: 120
 --- !u!82 &240720835
 AudioSource:
   m_ObjectHideFlags: 0

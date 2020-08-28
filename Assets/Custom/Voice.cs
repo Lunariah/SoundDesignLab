@@ -8,22 +8,16 @@ public class Voice : MonoBehaviour
     [SerializeField]
     private AudioClip ac_start;
     [SerializeField]
-    private AudioClip ac_normal_collect;
-    [SerializeField]
-    private AudioClip ac_special_collect;
-    [SerializeField]
-    private AudioClip ac_halfgame;
-    [SerializeField]
     private AudioClip ac_nohelp;
     [SerializeField]
-    private AudioClip ac_end;
+    private AudioClip[] ac_capture;
     [SerializeField]
     [Tooltip("Wait before ac_nohelp is played")]
     private float patience;
 
     private AudioSource source;
     private AudioClip played_next;
-    public byte capturesRemaining = 10;
+    private byte captures = 0;
     private float timeSinceLastCapture = 0;
 
     void Start()
@@ -59,19 +53,7 @@ public class Voice : MonoBehaviour
     public void OnCollect() // Called by Interaction
     {
         timeSinceLastCapture = 0;
-        capturesRemaining--;
-        switch(capturesRemaining)
-        {
-            case 0:
-                played_next = ac_end;
-                break;
-            case 4:
-                played_next = ac_special_collect;
-                break;
-            default:
-                played_next = ac_normal_collect;
-                break;
-        }
+        played_next = ac_capture[captures++];
     }
 }
 
