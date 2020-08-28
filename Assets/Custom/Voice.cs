@@ -25,12 +25,10 @@ public class Voice : MonoBehaviour
     private AudioClip played_next;
     public byte capturesRemaining = 10;
     private float timeSinceLastCapture = 0;
-    private bool ready = false;
 
     void Start()
     {
         source = GetComponent<AudioSource>();
-        source.clip = ac_start;
     }
     void Update()
     {
@@ -43,23 +41,18 @@ public class Voice : MonoBehaviour
         }
 
         // Play next line in queue
-        if (played_next != null)
+        if (played_next != null && !source.isPlaying)
         {
             Debug.Log("Adding" + played_next.name + " to queue");
             source.clip = played_next;
             played_next = null;
-            ready = true;
-        }
-        else if (ready && !source.isPlaying)
-        {
-            Debug.Log("Reading " + source.clip.name);
             source.Play();
-            ready = false;
         }
     }
 
     public void OnGameStart() // Called by Menu UI > Button
     {
+        played_next = ac_start;
         source.Play();
     }
 
