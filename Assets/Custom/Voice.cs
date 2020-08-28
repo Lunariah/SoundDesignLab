@@ -23,7 +23,7 @@ public class Voice : MonoBehaviour
 
     private AudioSource source;
     private AudioClip played_next;
-    private byte capturesRemaining = 10;
+    public byte capturesRemaining = 10;
     private float timeSinceLastCapture = 0;
     private bool ready = false;
 

@@ -2112,7 +2112,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.44
+      value: 6.1
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2120,7 +2120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.45
+      value: -4.56
       objectReference: {fileID: 0}
     - target: {fileID: 4111328061247126, guid: e9569c7e13e51264082910415a120d38, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2625,6 +2625,7 @@ MonoBehaviour:
   ac_nohelp: {fileID: 8300000, guid: 4d636b6ae8658e4408827a913a4660ee, type: 3}
   ac_end: {fileID: 8300000, guid: 3813a797ad46c2d45881ea0caec00015, type: 3}
   patience: 160
+  capturesRemaining: 10
 --- !u!82 &240720835
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19163,12 +19164,12 @@ MonoBehaviour:
   collect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 240720834}
+        m_MethodName: OnCollect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

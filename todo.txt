@@ -1,0 +1,7 @@
+Chomper behind boxes can’t be interacted with
+
+Desert Chomper floating
+
+Window Chomper not visible from inside
+
+Debug interaction voice
